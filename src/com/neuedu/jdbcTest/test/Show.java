@@ -20,23 +20,33 @@ public class Show {
 
         int i = input.nextInt();
         switch (i){
-            case 1:
-                new Selects().select();
-                break;
-            case 2:
-                new Updates().update();
-                break;
-            case 3:
-                new Inserts().insert();
-                break;
-            case 4:
-                new Deletes().delete();
-                break;
-            case 5:
-                System.out.println("******系统已退出******");
-                break;
+//            case 1:
+//                new Selects().select();
+//                break;
+//            case 2:
+//                new Updates().update();
+//                break;
+//            case 3:
+//                new Inserts().insert();
+//                break;
+//            case 4:
+//                new Deletes().delete();
+//                break;
+//            case 5:
+//                System.out.println("******系统已退出******");
+//                break;
         }
 
 
     }
 }
+//        System.out.println("请选择教师窗口或学生窗口");
+//        System.out.println("1 学生窗口");
+//        System.out.println("2 教师窗口");
+
+//            case 1:
+//                new StudentManager().login();
+//                break;
+//            case 2:
+//                new TeacherManager().login();
+//                break;
